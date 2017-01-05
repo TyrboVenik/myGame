@@ -1,104 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bc3d8a1-acca-4208-a64b-7a60c99138af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aunthentification/Authentification.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/clientconnection/EventClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/clientconnection/EventHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/classes/AccountServer/api/AuthenticationFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/classes/accountserver/AccountServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/classes/accountserver/api/AunthentificationServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/classes/clientconnection/ClientConnectionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/classes/clientconnection/ClientConnectionServer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/classes/clientconnection/ClientConnectionServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/classes/clientconnection/ClientConnections.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/classes/clientconnection/ServletContext.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/test-classes/Test.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_2_7_v20150116.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/EventClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/EventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__com_caucho_hessian_4_0_38.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_1_1_v20140108.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_3_7_v20160115.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_jetty_http_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__org_jetbrains_annotations_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/Server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/accountserver/AccountServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/accountserver/api/AunthentificationServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnectionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnectionServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnectionServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnections.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ServletContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/resources/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/test/java/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/target/classes/log4j2.xml" />
+    <list default="true" id="3a2cf10a-75c5-4d0b-a4dc-16842cffc393" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_2_7_v20150116.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/aunthentification/Authentification.class" afterPath="$PROJECT_DIR$/target/classes/aunthentification/Authentification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java" afterPath="$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,8 +49,8 @@
       <file leaf-file-name="Authentification.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="-458">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -139,13 +66,6 @@
       <projects_view />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -154,10 +74,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="52" />
-    <option name="width" value="864" />
-    <option name="height" value="716" />
+    <option name="x" value="512" />
+    <option name="y" value="24" />
+    <option name="width" value="854" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -255,10 +175,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clientconnection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -288,8 +204,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -299,7 +215,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -552,30 +468,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4bc3d8a1-acca-4208-a64b-7a60c99138af" name="Default" comment="" />
-      <created>1483641022722</created>
+      <changelist id="3a2cf10a-75c5-4d0b-a4dc-16842cffc393" name="Default" comment="" />
+      <created>1483653437523</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1483641022722</updated>
+      <updated>1483653437523</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="52" width="864" height="716" extended-state="4" />
+    <frame x="512" y="24" width="854" height="744" extended-state="4" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3761574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24941452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -607,8 +523,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="-458">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>

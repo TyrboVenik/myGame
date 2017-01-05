@@ -42,9 +42,32 @@ public class Authentification {
         }
     }
 
+    public String login(@NotNull String user,@NotNull String password){
+        MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
+        RequestBody body = RequestBody.create(
+                mediaType,
+                String.format("user=%s&password=%s",user,password)
+        );
+
+        String requestUrl = servoceUrl + "/auth/login";
+
+        Request request = new Request.Builder().
+                url(requestUrl).
+                post(body).
+                addHeader("content-type", "application/x-www-form-urlencoded").
+                build();
+
+        try {
+            Response response = client.newCall(request).execute();
+            return response.body().string();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     public static void main(@NotNull String[] args){
-        System.out.println("lol");
         Authentification authentification = new Authentification();
-        System.out.println(authentification.register("user","password"));
+        System.out.println(authentification.login("user","password"));
     }
 }
