@@ -36,7 +36,7 @@ public class AuthDao {
         stm.execute(CREATE_TABLE);
     }
 
-    private void insert(Pair<String,String> pair){
+    public void insert(Pair<String,String> pair){
         try(Connection con = DbConnector.getConnection()){
             createTable(con);
             Statement stm = con.createStatement();
@@ -46,7 +46,7 @@ public class AuthDao {
         }
     }
 
-    private Pair<String,String> get(String name){
+    public Pair<String,String> get(String name){
         try(Connection con = DbConnector.getConnection()){
             Pair<String,String> answer = null;
 
