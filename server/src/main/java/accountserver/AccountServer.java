@@ -1,5 +1,6 @@
 package accountserver;
 
+import main.Service;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.jetty.server.Server;
@@ -11,7 +12,7 @@ import org.jetbrains.annotations.NotNull;
 /**
  * Created by venik on 04.01.17.
  */
-public class AccountServer {
+public class AccountServer extends Service {
     private final static @NotNull Logger log = LogManager.getLogger(AccountServer.class);
 
     private void startApi(){
@@ -39,6 +40,11 @@ public class AccountServer {
             log.error("Failed to start account server {}",e);
         }
 
+    }
+
+    @Override
+    public void run(){
+        startApi();
     }
 
     public static void main(@NotNull String[] args){
