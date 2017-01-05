@@ -18,12 +18,12 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @Path("/auth")
 public class AuthServlet {
-    private static final Logger log = LogManager.getLogger(AuthServlet.class);
+    private final Logger log = LogManager.getLogger(AuthServlet.class);
 
-    private static final AuthDao dao = new AuthDao();
+    private final AuthDao dao = new AuthDao();
 
-    private static final Map<String, Token> tokens = new ConcurrentHashMap<>();
-    private static final Map<Token, String> tokensRevert = new ConcurrentHashMap<>();
+    private final Map<String, Token> tokens = new ConcurrentHashMap<>();
+    private final Map<Token, String> tokensRevert = new ConcurrentHashMap<>();
 
 
     // curl -i -X POST -H "Content-Type: application/x-www-form-urlencoded" -H "Host: localhost:7000" -d "user=1&password=1" "http://localhost:7000/auth/register"
