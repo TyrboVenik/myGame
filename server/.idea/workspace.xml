@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="806b3401-d19f-4c9c-90b2-e37a18715441" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/accountserver/api/AuthServlet.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/accountserver/api/AunthentificationServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/accountserver/api/AunthentificationServlet.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/accountserver/api/Token.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/src/main/java/aunthentification/Authentification.java" afterPath="$PROJECT_DIR$/../client/src/main/java/aunthentification/Authentification.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/AuthDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/AuthDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/accountserver/api/AuthServlet.java" afterPath="$PROJECT_DIR$/src/main/java/accountserver/api/AuthServlet.java" />
     </list>
     <ignored path="server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,9 +42,22 @@
       <file leaf-file-name="AuthServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/accountserver/api/AuthServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            <state relative-caret-position="186">
+              <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/accountserver/api/Token.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/DbConnector.java" />
         <option value="$PROJECT_DIR$/src/main/java/accountserver/api/AunthentificationServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/AuthDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/accountserver/api/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/accountserver/api/AuthServlet.java" />
       </list>
     </option>
@@ -627,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483646612079</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dao in register">
+      <created>1483648423545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1483648423545</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -674,7 +693,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_commit" />
     <MESSAGE value="dao was created" />
-    <option name="LAST_COMMIT_MESSAGE" value="dao was created" />
+    <MESSAGE value="dao in register" />
+    <option name="LAST_COMMIT_MESSAGE" value="dao in register" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -721,10 +741,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/accountserver/api/Tocken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/accountserver/api/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/accountserver/api/AuthServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="186">
+          <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
           <folding />
         </state>
       </provider>
