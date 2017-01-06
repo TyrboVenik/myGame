@@ -14,10 +14,17 @@ import org.eclipse.jetty.servlet.ServletHolder;
 public class ClientConnectionServer extends Service{
     private final static Logger log = LogManager.getLogger(ClientConnectionServer.class);
 
+    private final int port;
+
+    public ClientConnectionServer(){
+        super("client_connection_server");
+        port = 8090;
+    }
+
     public void  startApi(){
         Server server = new Server();
         ServerConnector connector = new ServerConnector(server);
-        connector.setPort(8090);
+        connector.setPort(port);
         server.addConnector(connector);
 
         server.setHandler(ServletContext.getInstance());
@@ -33,7 +40,7 @@ public class ClientConnectionServer extends Service{
             log.error("Faild to start ClientConnectionServer{}",e);
         }
 
-        log.info("ClientConnectionServer started on port {}",8090);
+        log.info("ClientConnectionServer started on port {}",port);
 
     }
 

@@ -15,11 +15,18 @@ import org.jetbrains.annotations.NotNull;
 public class AccountServer extends Service {
     private final static @NotNull Logger log = LogManager.getLogger(AccountServer.class);
 
+    private final int port;
+
+    public AccountServer(){
+        super("account_server");
+        port = 7000;
+    }
+
     private void startApi(){
         ServletContextHandler context = new ServletContextHandler();
         context.setContextPath("/");
 
-        Server server = new Server(7000);
+        Server server = new Server(port);
 
         server.setHandler(context);
 
