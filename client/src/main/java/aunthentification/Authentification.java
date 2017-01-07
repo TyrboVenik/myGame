@@ -4,7 +4,6 @@ import com.squareup.okhttp.*;
 import com.sun.istack.internal.NotNull;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.io.IOException;
 
 /**
@@ -59,9 +58,11 @@ public class Authentification {
 
         try {
             Response response = client.newCall(request).execute();
-            return response.body().string();
+            if (response.isSuccessful()){
+                return response.body().string();
+            }else
+                return null;
         } catch (IOException e) {
-            e.printStackTrace();
             return null;
         }
     }

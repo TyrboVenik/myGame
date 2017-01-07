@@ -8,25 +8,21 @@ import java.net.URI;
 import java.util.concurrent.Future;
 
 /**
- * Created by venik on 04.01.17.
+ * Created by venik on 07.01.17.
  */
-public class EventClient {
-    public static void main(@NotNull String[] args){
+public class ServerConnector {
+
+    public static Session session = null;
+
+    public static void connect(){
         URI uri = URI.create("ws://localhost:8090/clientConnection");
+
         WebSocketClient client = new WebSocketClient();
 
         try {
             client.start();
             ConnectionSocket socket = new ConnectionSocket();
-
-            Future<Session> future = client.connect(socket,uri);
-
-            Session session = future.get();
-
-            session.getRemote().sendString("HELLOwd");
-
-            session.close();
-
+            client.connect(socket,uri);
         } catch (Exception e) {
             e.printStackTrace();
         }
