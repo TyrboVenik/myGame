@@ -1,16 +1,20 @@
 package clientconnection;
 
-
-import clientconnection.network.PacketAuth;
+import clientconnection.network.handlers.AuthFailHandler;
+import clientconnection.network.handlers.AuthOkHandler;
+import clientconnection.network.packets.PacketAuth;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.jetty.websocket.api.Session;
-import org.eclipse.jetty.websocket.api.WebSocketAdapter;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketClose;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketConnect;
 import org.eclipse.jetty.websocket.api.annotations.OnWebSocketMessage;
 import org.eclipse.jetty.websocket.api.annotations.WebSocket;
 import properties.PlayerProperties;
+import protocol.Command;
+import protocol.CommandAuthFail;
+import protocol.CommandAuthOk;
+import utils.JsonHelper;
 
 
 /**
@@ -36,5 +40,18 @@ public class ConnectionSocket{
     @OnWebSocketMessage
     public void text(String message) {
         log.info("message {}",message);
+        readMessage(message);
+    }
+
+    private void readMessage(String msg){
+        Command command = JsonHelper.fromJson(msg,Command.class);
+        switch (command.getName()) {
+            case CommandAuthFail.NAME:
+                new AuthFailHandler(msg);
+                break;
+            case CommandAuthOk.NAME:
+                new AuthOkHandler(msg);
+                break;
+        }
     }
 }

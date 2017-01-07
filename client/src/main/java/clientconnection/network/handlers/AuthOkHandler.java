@@ -1,7 +1,11 @@
-package clientconnection.network;
+package clientconnection.network.handlers;
 
 /**
  * Created by venik on 08.01.17.
  */
-public class PacketAuthOkHandler {
+public class AuthOkHandler {
+
+    public AuthOkHandler(String msg){
+        System.out.println(msg);
+    }
 }

@@ -26,6 +26,5 @@ public class ServerConnector {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }

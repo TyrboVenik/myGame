@@ -1,58 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff398a59-2a86-4ece-8904-8e9da7f6d155" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__newGroup_protocol_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aunthentification/AuthFunctional.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/ConnectionSocket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/ServerConnector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/network/PacketAuth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/properties/PlayerProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/JsonHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../protocol/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../protocol/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../protocol/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../protocol/src/protocol/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../protocol/src/protocol/CommandAuth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../protocol/src/protocol/CommandAuthFail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../protocol/src/protocol/CommandAuthOk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/.idea/libraries/Maven__newGroup_protocol_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/handlers/PacketAuthHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/utils/JsonHelper.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/clientconnection/EventHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/clientconnection/EventHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../protocol/src/command/Command.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../protocol/src/command/CommandAuth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/src/test/java/Test.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/target/classes/AccountServer/api/AuthenticationFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/target/test-classes/Test.class" afterPath="" />
+    <list default="true" id="c305f848-2124-44e6-a6f7-93abaab6f016" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__NewGroup_protocol_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intellij_annotations_12_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../protocol/src/java/Command.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../protocol/src/java/CommandAuth.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../protocol/src/protocol/command.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/libraries/Maven__NewGroup_protocol_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../server/.idea/libraries/Maven__com_intellij_annotations_12_0.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/aunthentification/Authentification.class" afterPath="$PROJECT_DIR$/target/classes/aunthentification/Authentification.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/clientconnection/EventClient.class" afterPath="$PROJECT_DIR$/target/classes/clientconnection/EventClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/target/classes/accountserver/AccountServer.class" afterPath="$PROJECT_DIR$/../server/target/classes/accountserver/AccountServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/target/classes/clientconnection/ClientConnectionHandler.class" afterPath="$PROJECT_DIR$/../server/target/classes/clientconnection/ClientConnectionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/target/classes/clientconnection/ClientConnectionServer.class" afterPath="$PROJECT_DIR$/../server/target/classes/clientconnection/ClientConnectionServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.iml" afterPath="$PROJECT_DIR$/client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java" afterPath="$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clientconnection/EventClient.java" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/EventClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../protocol/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../protocol/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../protocol/.idea/misc.xml" afterPath="$PROJECT_DIR$/../protocol/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../protocol/pom.xml" afterPath="$PROJECT_DIR$/../protocol/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../protocol/protocol.iml" afterPath="$PROJECT_DIR$/../protocol/protocol.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.idea/misc.xml" afterPath="$PROJECT_DIR$/../server/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clientconnection/ConnectionSocket.java" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/ConnectionSocket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clientconnection/ServerConnector.java" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/ServerConnector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthFailHandler.java" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthFailHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthOkHandler.java" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthOkHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/clientconnection/network/packets/PacketAuth.java" afterPath="$PROJECT_DIR$/src/main/java/clientconnection/network/packets/PacketAuth.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../protocol/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../protocol/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/pom.xml" afterPath="$PROJECT_DIR$/../server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/server.iml" afterPath="$PROJECT_DIR$/../server/server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/accountserver/api/AuthServlet.java" afterPath="$PROJECT_DIR$/../server/src/main/java/accountserver/api/AuthServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/accountserver/api/Token.java" afterPath="$PROJECT_DIR$/../server/src/main/java/accountserver/api/Token.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnectionHandler.java" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnectionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/main/ApplicationContext.java" afterPath="$PROJECT_DIR$/../server/src/main/java/main/ApplicationContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/main/MasterServer.java" afterPath="$PROJECT_DIR$/../server/src/main/java/main/MasterServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/messagesystem/Adress.java" afterPath="$PROJECT_DIR$/../server/src/main/java/messagesystem/Adress.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/messagesystem/MessageSystem.java" afterPath="$PROJECT_DIR$/../server/src/main/java/messagesystem/MessageSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/clientconnection/handlers/PacketAuthHandler.java" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/handlers/PacketAuthHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/clientconnection/packets/PacketAuthFail.java" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/packets/PacketAuthFail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/clientconnection/packets/PacketAuthOk.java" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/packets/PacketAuthOk.java" />
     </list>
     <ignored path="client.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,46 +44,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConnectionSocket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/ConnectionSocket.java">
+      <file leaf-file-name="AuthFailHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthFailHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="150">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PacketAuth.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/network/PacketAuth.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/network/packets/PacketAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="151">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionSocket.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/ConnectionSocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthOkHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthOkHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Authentification.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandAuth.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/NewGroup/protocol/1.0/protocol-1.0.jar!/command/CommandAuth.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -120,43 +93,19 @@
       <file leaf-file-name="AuthFunctional.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/aunthentification/AuthFunctional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="-119">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ServerConnector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/ServerConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+            <state relative-caret-position="241">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlayerProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/properties/PlayerProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/JsonHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -174,11 +123,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthOkHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clientconnection/ServerConnector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthFailHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/clientconnection/ConnectionSocket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/JsonHelper.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/clientconnection/network/PacketAuth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java" />
       </list>
     </option>
   </component>
@@ -190,9 +138,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -219,9 +167,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -316,58 +263,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="properties" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="clientconnection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -401,6 +296,44 @@
               <option name="myItemId" value="network" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientconnection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -430,6 +363,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,7 +373,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -715,35 +648,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ff398a59-2a86-4ece-8904-8e9da7f6d155" name="Default" comment="" />
-      <created>1483826060271</created>
+      <changelist id="c305f848-2124-44e6-a6f7-93abaab6f016" name="Default" comment="" />
+      <created>1483832512470</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1483826060271</updated>
+      <updated>1483832512470</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20280811" sideWeight="0.50292826" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.50292826" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20280811" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31112736" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -773,74 +706,56 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/properties/PlayerProperties.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/ServerConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/JsonHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/NewGroup/protocol/1.0/protocol-1.0.jar!/command/CommandAuth.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="241">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aunthentification/AuthFunctional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="-119">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/network/packets/PacketAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthFailHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/network/handlers/AuthOkHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/ConnectionSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clientconnection/network/PacketAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aunthentification/Authentification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="256">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
           <folding />
         </state>
       </provider>

@@ -1,4 +1,4 @@
-package clientconnection.network;
+package clientconnection.network.packets;
 
 import aunthentification.Authentification;
 import clientconnection.ServerConnector;
