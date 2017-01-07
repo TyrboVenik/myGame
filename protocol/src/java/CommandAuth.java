@@ -1,16 +1,13 @@
-import com.sun.istack.internal.NotNull;
-
 /**
  * Created by venik on 07.01.17.
  */
 public class CommandAuth extends Command {
-
     private final String user;
 
     private final String token;
 
-    public CommandAuth(@NotNull String user, @NotNull String token) {
-        super(Command.AUTH);
+    public CommandAuth(String user,String token) {
+        super(AUTH);
         this.user=user;
         this.token=token;
     }
