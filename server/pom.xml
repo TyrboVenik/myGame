@@ -104,6 +104,12 @@
             <version>${jersey.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>newGroup</groupId>
+            <artifactId>protocol</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>

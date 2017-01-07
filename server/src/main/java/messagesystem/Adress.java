@@ -10,7 +10,7 @@ public class Adress {
     private String name;
 
     public Adress(@NotNull String name){
-        name = name;
+        this.name = name;
     }
 
     @NotNull

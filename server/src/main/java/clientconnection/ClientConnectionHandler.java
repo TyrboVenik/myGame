@@ -1,13 +1,15 @@
 package clientconnection;
 
+import clientconnection.handlers.PacketAuthHandler;
 import com.sun.istack.internal.NotNull;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.WebSocketAdapter;
+import protocol.Command;
+import protocol.CommandAuth;
+import utils.JsonHelper;
 
-import java.io.IOException;
 
 
 /**
@@ -19,18 +21,16 @@ public class ClientConnectionHandler extends WebSocketAdapter {
 
     @Override
     public void onWebSocketConnect(@NotNull Session session){
+        super.onWebSocketConnect(session);
         ClientConnections.connectionList.add(session);
-        try {
-            session.getRemote().sendString("Hello");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         log.info("onWebSocketConnect");
     }
 
     @Override
     public void onWebSocketText(@NotNull String message){
-        log.info("onWebSocketText");
+        super.onWebSocketText(message);
+        log.info("onWebSocketText {}",message);
+        readMessage(message);
     }
 
     @Override
@@ -38,4 +38,14 @@ public class ClientConnectionHandler extends WebSocketAdapter {
         log.info("onWebSocketClose");
     }
 
+
+    private void readMessage(String msg){
+        Command command = JsonHelper.fromJson(msg,Command.class);
+        switch (command.getName()) {
+            case CommandAuth.NAME:
+                new PacketAuthHandler(getSession(), msg);
+                break;
+        }
+
+    }
 }

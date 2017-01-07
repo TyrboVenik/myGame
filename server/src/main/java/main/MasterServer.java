@@ -2,8 +2,11 @@ package main;
 
 import accountserver.AccountServer;
 import clientconnection.ClientConnectionServer;
+import messagesystem.Message;
+import messagesystem.MessageSystem;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.omg.CORBA.Object;
 
 /**
  * Created by venik on 06.01.17.
@@ -12,15 +15,24 @@ public class MasterServer {
     private final static Logger log = LogManager.getLogger(MasterServer.class);
 
     private void start(){
+        ApplicationContext app = ApplicationContext.getInstanse();
+
         AccountServer accountServer = new AccountServer();
         ClientConnectionServer clientConnectionServer = new ClientConnectionServer();
 
-        accountServer.start();
-        clientConnectionServer.start();
+        MessageSystem messageSystem = new MessageSystem();
+        app.put(MessageSystem.class, messageSystem);
+
+        messageSystem.registerService(accountServer);
+        messageSystem.registerService(clientConnectionServer);
+
+        for(Service service:messageSystem.getServices())
+            service.start();
+
 
         try {
-            accountServer.join();
-            clientConnectionServer.join();
+            for(Service service:messageSystem.getServices())
+                service.join();
         } catch (InterruptedException e) {
             log.error(e);
         }

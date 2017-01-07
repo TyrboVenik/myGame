@@ -3,7 +3,6 @@ package main;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jetbrains.annotations.NotNull;
-import org.omg.CORBA.Object;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -28,9 +27,10 @@ public class ApplicationContext {
     @NotNull
     private final Map<Class, Object> contexMap = new ConcurrentHashMap<>();
 
-    public void put(Class clazz, Object object){
-        contexMap.put(clazz,object);
+    public void put(@NotNull Class clazz, @NotNull Object object) {
+        contexMap.put(clazz, object);
     }
+
 
     public <T>T get(Class<T> clazz){
         return (T)contexMap.get(clazz);
