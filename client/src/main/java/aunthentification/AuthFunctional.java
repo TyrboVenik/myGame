@@ -2,6 +2,7 @@ package aunthentification;
 
 import clientconnection.ServerConnector;
 import properties.PlayerProperties;
+import utils.Reporter;
 
 import javax.swing.*;
 import java.io.IOException;
@@ -42,15 +43,9 @@ public class AuthFunctional {
 
         Boolean answer = authentification.register(login,password);
         if(!answer){
-            JOptionPane.showMessageDialog(null,
-                    "try again",
-                    "no",
-                    JOptionPane.ERROR_MESSAGE);
+            Reporter.reportError("Register","Register failed");
         }else {
-            JOptionPane.showMessageDialog(null,
-                    "registered",
-                    "yes",
-                    JOptionPane.INFORMATION_MESSAGE);
+            Reporter.reportOk("Register","User "+login+" registered");
         }
 
         startAuth();
@@ -62,17 +57,10 @@ public class AuthFunctional {
 
         String token = authentification.login(login,password);
         if(token == null){
-            JOptionPane.showMessageDialog(null,
-                    "try again",
-                    "no",
-                    JOptionPane.ERROR_MESSAGE);
-
+            Reporter.reportError("Login","Login failed");
             startAuth();
         }else {
-            JOptionPane.showMessageDialog(null,
-                    "login",
-                    "yes",
-                    JOptionPane.INFORMATION_MESSAGE);
+            Reporter.reportOk("Login","Hello, "+login);
             PlayerProperties.TOKEN = token;
             PlayerProperties.USER_NAME = login;
 

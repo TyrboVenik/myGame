@@ -36,7 +36,6 @@ public class Authentification {
             Response response = client.newCall(request).execute();
             return response.isSuccessful();
         } catch (IOException e) {
-            e.printStackTrace();
             return false;
         }
     }

@@ -6,5 +6,5 @@ package properties;
 public class PlayerProperties {
     public static String TOKEN;
     public static String USER_NAME;
-
+    public static int ID;
 }
