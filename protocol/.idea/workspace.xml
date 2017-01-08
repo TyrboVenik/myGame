@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b06853a-6467-47de-92d2-425e137f8408" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client/src/main/java/game/Game.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client/src/main/java/game/view/GameCanvas.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client/src/main/java/game/view/GameFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../client/src/main/java/utils/Reporter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/target/classes/aunthentification/Authentification.class" afterPath="$PROJECT_DIR$/../client/target/classes/aunthentification/Authentification.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/mathmaker/GameSession.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/mathmaker/MatchMaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../server/src/main/java/model/Player.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/src/main/java/aunthentification/AuthFunctional.java" afterPath="$PROJECT_DIR$/../client/src/main/java/aunthentification/AuthFunctional.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/src/main/java/aunthentification/Authentification.java" afterPath="$PROJECT_DIR$/../client/src/main/java/aunthentification/Authentification.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/src/main/java/clientconnection/network/handlers/AuthOkHandler.java" afterPath="$PROJECT_DIR$/../client/src/main/java/clientconnection/network/handlers/AuthOkHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../client/src/main/java/properties/PlayerProperties.java" afterPath="$PROJECT_DIR$/../client/src/main/java/properties/PlayerProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.idea/misc.xml" afterPath="$PROJECT_DIR$/../server/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnectionHandler.java" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnectionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnections.java" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/ClientConnections.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/clientconnection/handlers/PacketAuthHandler.java" afterPath="$PROJECT_DIR$/../server/src/main/java/clientconnection/handlers/PacketAuthHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../server/src/main/java/main/MasterServer.java" afterPath="$PROJECT_DIR$/../server/src/main/java/main/MasterServer.java" />
     </list>
     <ignored path="protocol.iws" />
     <ignored path=".idea/workspace.xml" />

@@ -2,6 +2,8 @@ package main;
 
 import accountserver.AccountServer;
 import clientconnection.ClientConnectionServer;
+import clientconnection.ClientConnections;
+import mathmaker.MatchMaker;
 import messagesystem.Message;
 import messagesystem.MessageSystem;
 import org.apache.logging.log4j.LogManager;
@@ -21,7 +23,10 @@ public class MasterServer {
         ClientConnectionServer clientConnectionServer = new ClientConnectionServer();
 
         MessageSystem messageSystem = new MessageSystem();
+
         app.put(MessageSystem.class, messageSystem);
+        app.put(MatchMaker.class,new MatchMaker());
+        app.put(ClientConnections.class,new ClientConnections());
 
         messageSystem.registerService(accountServer);
         messageSystem.registerService(clientConnectionServer);

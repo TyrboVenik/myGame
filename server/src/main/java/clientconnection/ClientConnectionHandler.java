@@ -2,6 +2,9 @@ package clientconnection;
 
 import clientconnection.handlers.PacketAuthHandler;
 import com.sun.istack.internal.NotNull;
+import main.ApplicationContext;
+import mathmaker.MatchMaker;
+import model.Player;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.jetty.websocket.api.Session;
@@ -10,6 +13,7 @@ import protocol.Command;
 import protocol.CommandAuth;
 import utils.JsonHelper;
 
+import java.util.Map;
 
 
 /**
@@ -22,7 +26,6 @@ public class ClientConnectionHandler extends WebSocketAdapter {
     @Override
     public void onWebSocketConnect(@NotNull Session session){
         super.onWebSocketConnect(session);
-        ClientConnections.connectionList.add(session);
         log.info("onWebSocketConnect");
     }
 
@@ -36,6 +39,14 @@ public class ClientConnectionHandler extends WebSocketAdapter {
     @Override
     public void onWebSocketClose(int statusCode,@NotNull String reason){
         log.info("onWebSocketClose");
+        ClientConnections clientConnections = ApplicationContext.getInstanse().get(ClientConnections.class);
+
+       for(Map.Entry<Player,Session> key: clientConnections.getSessions()){
+           if (key.getValue().equals(getSession())){
+               MatchMaker matchMaker = ApplicationContext.getInstanse().get(MatchMaker.class);
+               matchMaker.leave(key.getKey());
+           }
+       }
     }
 
 

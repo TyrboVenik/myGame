@@ -2,9 +2,13 @@ package clientconnection.handlers;
 
 import accountserver.api.AuthServlet;
 import accountserver.api.Token;
+import clientconnection.ClientConnectionServer;
+import clientconnection.ClientConnections;
 import clientconnection.packets.PacketAuthFail;
 import clientconnection.packets.PacketAuthOk;
 import main.ApplicationContext;
+import mathmaker.MatchMaker;
+import model.Player;
 import org.eclipse.jetty.websocket.api.Session;
 import protocol.Command;
 import protocol.CommandAuth;
@@ -24,8 +28,16 @@ public class PacketAuthHandler {
 
         Token token = JsonHelper.fromJson(comAuth.getToken(), Token.class);
 
-        if(AuthServlet.checkToken(comAuth.getUser(),token))
-            new PacketAuthOk(0).write(session);
+        if(AuthServlet.checkToken(comAuth.getUser(),token)) {
+            MatchMaker matchMaker = ApplicationContext.getInstanse().get(MatchMaker.class);
+            ClientConnections clientConnections = ApplicationContext.getInstanse().get(ClientConnections.class);
+
+            Player player = new Player(comAuth.getUser());
+            clientConnections.addConnection(player,session);
+            matchMaker.joinGame(player);
+
+            new PacketAuthOk(player.getId()).write(session);
+        }
         else
             new PacketAuthFail("incorrect token").write(session);
     }
